@@ -15,7 +15,7 @@ The `factory_method.py` file contains a Python class that demonstrates the imple
 creator = ConcreteCreator()
 product = creator.factory_method()
 print(product.operation())
-
+```
 
 ## Example Usage
 ```python
