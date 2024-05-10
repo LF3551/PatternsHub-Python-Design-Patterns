@@ -1,5 +1,10 @@
 import unittest
-from singleton import Singleton
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
+from Singleton.singleton import Singleton
 
 class TestSingleton(unittest.TestCase):
     
