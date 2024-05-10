@@ -20,7 +20,7 @@ Each pattern includes:
 To dive into these design patterns:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/PatternsHub-Python-Design-Patterns.git
+   git clone https://github.com/LF3551/PatternsHub-Python-Design-Patterns.git
 
 
 ## How to Contribute
