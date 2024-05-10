@@ -22,9 +22,6 @@ To dive into these design patterns:
 1. Clone the repository:
    ```bash
    git clone https://github.com/LF3551/PatternsHub-Python-Design-Patterns.git
-
-
-
 ## How to Contribute 🤝
 
 Contributions are welcome! If you have improvements, additional patterns, or suggestions, please:
