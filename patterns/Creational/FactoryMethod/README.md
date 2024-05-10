@@ -23,5 +23,13 @@ Result of the ConcreteProduct operation.
 ```
 This output shows how the product created by the factory method performs its operation, demonstrating the dynamic creation of objects.
 
+## Business Logic Method
+
+Here is how you can use the Factory Method class to perform some business logic:
+```python
+singleton = Singleton()
+singleton.some_business_logic()
+```
+
 ## Testing
-The test_factory_method.py file includes tests to ensure that the Factory Method pattern is correctly implemented and that it can dynamically create various types of product instances.
+The `test_factory_method.py` file includes tests to ensure that the Factory Method pattern is correctly implemented and that it can dynamically create various types of product instances.
