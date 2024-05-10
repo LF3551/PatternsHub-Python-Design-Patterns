@@ -38,6 +38,5 @@ Here is how you can use the Singleton class to perform some business logic:
 singleton = Singleton()
 singleton.some_business_logic()
 ```
-
 ## Testing 🧪
 The `test_singleton.py` includes tests to ensure that the Singleton pattern is maintained and that multiple instantiations return the same object.
