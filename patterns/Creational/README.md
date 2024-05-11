@@ -1,4 +1,4 @@
-# [Creational Design Patterns](../../../README.md) 🛠️
+# [Creational Design Patterns](../../../) 🛠️
 
 Creational design patterns are concerned with the way of creating objects, allowing objects to be created in a manner suitable to the situation. These patterns reduce complexities and instability by creating objects in a controlled manner. 🎯
 
