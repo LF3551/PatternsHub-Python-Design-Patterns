@@ -44,8 +44,3 @@ Each directory contains:
 
 ## Testing 🧪
 You can run the test suite included in each pattern's subdirectory to ensure that the implementations follow the pattern correctly and meet the expected output.
-
-## Contributing 🤝
-Contributions to extend or enhance the patterns are highly welcome. Please refer to the `CONTRIBUTION.md` for guidelines on contributing.
-
-Thank you for exploring the Creational design patterns with us! 💡
