@@ -36,14 +36,13 @@ class Context:
 
     def request(self):
         self.state.handle(self)
-```
+
 # Example usage
-```python
 context = Context(ConcreteStateA())
 context.request()  # Outputs: State A handling context.
 context.request()  # Outputs: State B handling context.
 ```
-# Output 📊
+## Output 📊
 
 ```python
 State A handling context.
@@ -51,7 +50,7 @@ State B handling context.
 ```
 This output demonstrates how the context transitions between states and changes behavior accordingly.
 
-# Business Logic Method 🧠
+## Business Logic Method 🧠
 
 The State Pattern can be adapted to complex scenarios, such as a multistage approval process where different actions are taken based on the stage:
 
@@ -71,7 +70,7 @@ context = Context(ReviewState())
 context.request()  # Outputs: In review state, moving to approval.
 context.request()  # Outputs: Handling approval in state: ApprovalState
 ```
-# Testing 🧪
+## Testing 🧪
 
 The test_state.py file should contain tests to ensure:
 

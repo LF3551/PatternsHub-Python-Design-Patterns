@@ -51,16 +51,15 @@ class RemoteControl:
 
     def press_button(self):
         self._command.execute()
-```
+
 # Example usage
-```python
 light = Light()
 turn_on_command = TurnOnCommand(light)
 remote = RemoteControl()
 remote.set_command(turn_on_command)
 remote.press_button()
 ```
-# Output 📊
+## Output 📊
 ```python
 The light is on
 ```
@@ -92,7 +91,7 @@ class Receiver:
     def perform_action(self):
         print("Receiver is performing action.")
 ```
-# Testing 🧪
+## Testing 🧪
 
 The test_command.py file should contain tests for:
 

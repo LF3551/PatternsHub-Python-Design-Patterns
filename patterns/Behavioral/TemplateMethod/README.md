@@ -59,7 +59,7 @@ concrete1.template_method()
 concrete2 = ConcreteClass2()
 concrete2.template_method()
 ```
-# Output 📊
+## Output 📊
 
 ```python
 ConcreteClass1: Executing Step 1
@@ -70,7 +70,7 @@ ConcreteClass2: Custom hook implementation
 ```
 This output illustrates how ConcreteClass1 and ConcreteClass2 each execute the algorithm's steps, with ConcreteClass2 adding a custom step via the hook method.
 
-# Business Logic Method 🧠
+## Business Logic Method 🧠
 
 The Template Method can be particularly useful for setting up a comprehensive framework for complex business operations that follow a fixed sequence but need flexibility in some of their phases.
 
@@ -90,7 +90,7 @@ report = ReportGenerator()
 report.template_method()
 
 ```
-# Testing 🧪
+## Testing 🧪
 
 The test_template_method.py file should include tests to verify:
 
