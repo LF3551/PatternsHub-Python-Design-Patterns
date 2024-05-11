@@ -45,7 +45,6 @@ class ConcreteObserverB(Observer):
     def update(self):
         print("ConcreteObserverB: Notified of the change!")
 
-# Usage
 if __name__ == "__main__":
     subject = Subject()
     observer_a = ConcreteObserverA()
@@ -75,14 +74,13 @@ class FilteredObserver(Observer):
         if state == self._state_interest:
             print(f"FilteredObserver: Notified of the change to {state} state!")
 
-# Example usage
 if __name__ == "__main__":
     subject = Subject()
     observer_a = ConcreteObserverA()
     observer_filtered = FilteredObserver("specific_state")
     subject.attach(observer_a)
     subject.attach(observer_filtered)
-    subject.notify_state_change("specific_state")  # Only observer_filtered responds.
+    subject.notify_state_change("specific_state")
 
 ```
 
