@@ -1,4 +1,4 @@
-# Decorator Pattern 🎨
+# [Decorator Pattern](../) 🎨
 
 ## Overview 📖
 The Decorator Pattern allows behavior to be added to individual objects, dynamically, without affecting the behavior of other objects from the same class.

@@ -1,4 +1,4 @@
-# Composite Pattern 🌳
+# [Composite Pattern](../) 🌳
 
 ## Overview 📖
 The Composite Pattern allows you to work with complex tree structures more conveniently, treating simple and composite elements uniformly.

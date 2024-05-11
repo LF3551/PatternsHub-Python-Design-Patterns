@@ -1,4 +1,4 @@
-# Proxy Pattern 🛡️
+# [Proxy Pattern](../) 🛡️
 
 ## Overview 📖
 The Proxy Pattern provides a surrogate or placeholder object that controls access to a more complex or resource-intensive object. This can be useful for managing access to sensitive or expensive resources.

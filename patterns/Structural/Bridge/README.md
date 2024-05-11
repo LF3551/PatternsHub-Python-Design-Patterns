@@ -1,4 +1,4 @@
-# Bridge Pattern 🌉
+# [Bridge Pattern](../) 🌉
 
 ## Overview 📖
 The Bridge Pattern is designed to separate a class's interface from its implementation, allowing the two to vary independently. This pattern is particularly useful for coping with platform dependencies or when adding functionality while minimizing code dependencies.

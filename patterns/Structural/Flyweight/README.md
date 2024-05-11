@@ -1,4 +1,4 @@
-# Flyweight Pattern 🪶
+# [Flyweight Pattern](../) 🪶
 
 ## Overview 📖
 The Flyweight Pattern conserves memory by sharing large numbers of fine-grained objects efficiently. It is typically used to reduce the memory footprint of applications with large numbers of similar objects.
