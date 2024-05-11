@@ -1,4 +1,4 @@
-# Adapter Pattern 🔄
+# [Adapter Pattern](../) 🔄
 
 ## Overview 📖
 The Adapter Pattern allows objects with incompatible interfaces to work together. It acts as a bridge between two different interfaces by wrapping the one which needs to be adapted.
