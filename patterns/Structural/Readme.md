@@ -1,4 +1,4 @@
-# Structural Design Patterns 🏗️
+# [Structural Design Patterns](../../) 🏗️
 
 Structural design patterns are concerned with how classes and objects are composed to form larger structures. These patterns help to ensure that if one part of a system changes, the entire system does not need to do the same, thus promoting flexibility and efficiency in the system architecture. 🎯
 
