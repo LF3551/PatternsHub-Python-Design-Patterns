@@ -4,7 +4,7 @@ Structural design patterns are concerned with how classes and objects are compos
 
 ## Patterns Covered 📚
 
-### 1. Adapter 🔄
+[### 1. Adapter](./Adapter/) 🔄
 The Adapter pattern allows objects with incompatible interfaces to collaborate. It works as a bridge between two incompatible interfaces by encapsulating one object and presenting a different interface.
 
 **Usage**: Useful when you need to use existing classes, and their interfaces do not match the one you need. 🌉
