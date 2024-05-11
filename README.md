@@ -9,7 +9,7 @@ This repository covers:
 - **Creational Patterns** 🏗️: Enhance how objects are created in Python, making the creation process more adaptable to the situation.
 - **Structural Patterns** 🌉: Learn to assemble objects and classes into larger structures while maintaining flexibility and efficiency.
 - **Behavioral Patterns** 🧠: Discover the best practices for managing object communication and responsibility delegation.
-- [**Architectural Patterns**](./Architectural/) 🏛️: Explore high-level patterns that deal with the overall layout of application components and data flow.
+- [**Architectural Patterns**](./patterns/Architectural/) 🏛️: Explore high-level patterns that deal with the overall layout of application components and data flow.
 
 Each pattern category includes:
 - **Code Examples** 📜: Simple scripts showing how to implement the pattern in Python.
