@@ -1,4 +1,4 @@
-# Observer Pattern 📡
+# [Observer Pattern](../) 📡
 
 ## Overview 📖
 The Observer Pattern is a behavioral design pattern that establishes a one-to-many relationship between objects. A single object, known as the subject, maintains a list of its dependents, known as observers, and notifies them automatically of any state changes.

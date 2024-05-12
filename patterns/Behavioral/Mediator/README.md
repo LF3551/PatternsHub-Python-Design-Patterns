@@ -1,4 +1,4 @@
-# Mediator Pattern 🕊️
+# [Mediator Pattern](../) 🕊️
 
 ## Overview 📖
 The Mediator Pattern simplifies complex communication between multiple objects or classes by introducing a single mediator object that handles all the communication and control between related objects. By doing so, it decreases the direct references among objects, thereby reducing dependencies and facilitating easier maintenance and modification of interactions.

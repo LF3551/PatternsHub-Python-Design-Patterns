@@ -1,4 +1,4 @@
-# Iterator Pattern 🔄
+# [Iterator Pattern](../) 🔄
 
 ## Overview 📖
 The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. This pattern is essential for encapsulating the traversal of potentially complex data structures and providing a standard interface for iterating over them.

@@ -1,4 +1,4 @@
-# Template Method Pattern 📐
+# [Template Method Pattern](../) 📐
 
 ## Overview 📖
 The Template Method Pattern defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure. This pattern is crucial for reusing the invariant parts of an algorithm, while allowing variations in the details.

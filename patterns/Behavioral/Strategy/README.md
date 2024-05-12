@@ -1,4 +1,4 @@
-# Strategy Pattern 🧠
+# [Strategy Pattern](../) 🧠
 
 ## Overview 📖
 The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. This pattern is typically used to select the appropriate algorithm at runtime according to the need.
