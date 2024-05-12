@@ -1,4 +1,4 @@
-# Prototype Pattern 🛠️
+# [Prototype Pattern](../) 🛠️
 
 ## Overview 📖
 The Prototype Pattern is used to create duplicate objects while keeping performance in mind. It helps in creating objects more conveniently.

@@ -1,4 +1,4 @@
-# Factory Method Pattern 🏭
+# [Factory Method Pattern](../) 🏭
 
 ## Overview 🌐
 The Factory Method Pattern defines an interface for creating an object but allows subclasses to decide which class to instantiate. This approach lets a class defer instantiation to subclasses, enhancing flexibility and encapsulation.
