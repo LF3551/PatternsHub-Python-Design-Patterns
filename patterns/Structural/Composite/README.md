@@ -26,7 +26,6 @@ Branch(Leaf, Leaf)
 This example demonstrates how Composite groups individual Leaf objects and treats them uniformly through the Component interface.
 
 ## Business Logic Method 🧠
-
 Extend the Composite pattern to handle more complex data processing by incorporating additional functionality in the Composite's operations. Here's an example of adding data summarization capabilities:
 
 ```python
@@ -49,6 +48,5 @@ if __name__ == "__main__":
     print(composite.summarize_data())
 
 ```
-
 ## Testing 🧪
 The `test_composite.py` file includes tests to verify that the Composite and Leaf behave correctly, ensuring that compositions and individual elements are treated uniformly.

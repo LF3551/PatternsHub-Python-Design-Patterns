@@ -29,7 +29,6 @@ Subsystem2: Fire!
 This example demonstrates how the Facade provides a single, unified, and simplified interface to the more complex subsystems beneath.
 
 ## Business Logic Method 🧠
-
 The Facade pattern can be extended to provide more comprehensive management features, such as error handling, logging, or security checks. Here's an example of integrating security checks into the facade to enhance system security:
 
 ```python

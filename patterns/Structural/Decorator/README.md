@@ -24,7 +24,6 @@ ConcreteDecoratorB(ConcreteDecoratorA(ConcreteComponent))
 This output demonstrates how the decorators dynamically add functionality to the `ConcreteComponent`. Each decorator wraps the previous level, adding its own behavior while preserving the interface.
 
 ## Business Logic Method 🧠
-
 The Decorator pattern can be extended to include more complex logic, such as logging, caching, or monitoring of operations, enhancing not just functionality but also the maintainability and scalability of an application. Here's an example of integrating logging functionality:
 
 ```python
@@ -39,7 +38,6 @@ if __name__ == "__main__":
     component = ConcreteComponent()
     logging_decorator = LoggingDecorator(component)
     final_result = logging_decorator.operation()
-
 ```
 
 ## Testing 🧪

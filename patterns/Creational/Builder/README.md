@@ -24,7 +24,6 @@ Product constructed: ['Part A', 'Part B']
 This example demonstrates building a product with parts A and B. The Director manages the construction process, and the ConcreteBuilder provides the specifics.
 
 ## Business Logic Method 🧠
-
 The Builder pattern can be used to encapsulate the complex construction process of an object that involves various steps and components. Here’s how you can extend the builder pattern to perform complex business logic:
 ```python
 class ComplexProductBuilder(ConcreteBuilder):
@@ -50,7 +49,6 @@ if __name__ == "__main__":
     director.construct_with_features()
     product = builder.get_result()
     print("Product with advanced features:", product)
-
 ```
 ## Testing 🧪
 The `test_builder.py` file includes tests to ensure the Builder pattern is maintained, validating that the constructed product meets the expected parts configuration.

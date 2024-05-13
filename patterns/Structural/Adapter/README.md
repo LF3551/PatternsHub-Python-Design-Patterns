@@ -30,12 +30,10 @@ Client: The Adaptee class has a weird interface. See, I don't understand it:
 .eetpadA eht fo roivaheb laiceps
 Client: But I can work with it via the Adapter:
 Adapter: (TRANSLATED) Special behavior of the Adaptee.
-
 ```
 This example demonstrates how an Adapter translates the interface of the Adaptee into something that the client expects.
 
 ## Business Logic Method 🧠
-
 Extend the Adapter pattern to handle more complex adaptations. For instance, integrating legacy systems with newer systems without changing their existing interfaces. Here's an example of extending the Adapter's functionality to accommodate additional requirements:
 ```python
 class EnhancedAdapter(Adapter):

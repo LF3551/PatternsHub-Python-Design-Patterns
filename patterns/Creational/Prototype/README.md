@@ -25,7 +25,6 @@ Clone: Prototype Number: 1001
 This example demonstrates the cloning of a prototype object with its internal state.
 
 ## Business Logic Method 🧠
-
 Extend the prototype pattern to include complex scenarios where prototypes might need to have deep copy functionality, which involves copying of objects containing other objects.
 
 ## Testing 🧪

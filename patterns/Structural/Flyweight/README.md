@@ -32,7 +32,6 @@ Flyweight: Displaying shared (Chevrolet, Camaro2018, pink) and unique (CL234IR) 
 This demonstrates how the flyweight is shared and displays both its intrinsic and extrinsic state.
 
 ## Business Logic Method 🧠
-
 The Flyweight pattern can be adapted to manage shared resources in more complex scenarios, such as networked devices or pooled database connections. Here’s how Flyweights could manage database connections more efficiently:
 
 ```python

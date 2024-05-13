@@ -55,5 +55,4 @@ Each directory contains:
 - Tests validating the implementation of the patterns.
 
 ## Testing 🧪
-
 You can run the test suite included in each pattern's subdirectory to ensure that the implementations follow the pattern correctly and meet the expected output. This is key to verifying that the structural enhancements do not compromise the system's integrity or performance.

@@ -32,7 +32,6 @@ ProductB1 interacts with ProductA1
 This output demonstrates how products created by an abstract factory interact, showing the dynamic creation and interaction of objects within a family.
 
 ## Business Logic Method 🧠
-
 Here is how you can use the Singleton class to perform some business logic:
 ```python
 # Initialize a factory
@@ -44,7 +43,6 @@ product_b = factory.create_product_b()
 # Business logic that utilizes created products
 print(product_a.operate())
 print(product_b.operate())
-
 ```
 ## Testing 🧪
 The `test_abstract_factory.py` file includes tests to ensure that different product types are created by different factories correctly, and that each product type corresponds correctly to its factory. These tests help verify the integrity and correct implementation of the Abstract Factory pattern.

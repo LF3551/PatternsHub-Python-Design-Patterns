@@ -30,7 +30,6 @@ Proxy: Logging the time of request.
 This output illustrates the Proxy's role in managing operations on the RealSubject, demonstrating the added layers of control and accountability.
 
 ## Business Logic Method 🧠
-
 The Proxy Pattern can be expanded to incorporate more complex security mechanisms, such as role-based access control or resource usage monitoring. For example, a Virtual Proxy can be used for lazy initialization to optimize resource allocation:
 
 ```python
