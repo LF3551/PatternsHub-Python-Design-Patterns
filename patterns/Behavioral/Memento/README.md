@@ -88,11 +88,9 @@ class SerializableMemento(Memento):
     def deserialize(self):
         # Deserialization logic to restore state from a storable format
         pass
-
 ```
 
 ## Testing 🧪
 The test_memento.py file should contain tests to verify:
-
 - The integrity of saved and restored states.
 - That the Originator’s internal state is not exposed outside the Memento.

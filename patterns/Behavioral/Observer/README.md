@@ -10,7 +10,6 @@ The Observer Pattern is a behavioral design pattern that establishes a one-to-ma
 
 ## Implementation 🛠️
 The `Observer` pattern is implemented in its own subdirectory within this repository:
-
 `observer.py`: Contains the core interfaces and classes for the Observer pattern, including the Subject class and Observer interface.
 `concrete_observer.py` Implements specific observers that react to notifications from the Subject.
 
@@ -62,9 +61,7 @@ ConcreteObserverB: Notified of the change!
 This output illustrates how each observer reacts to the notification from the subject, demonstrating the real-time communication and update mechanism within the Observer pattern.
 
 ## Business Logic Method 🧠
-
 The Observer Pattern can be extended to incorporate more sophisticated interaction scenarios, such as filtering notifications based on the observer's state or the type of update. Here’s an example of how a more complex scenario could be handled:
-
 ```python
 class FilteredObserver(Observer):
     def __init__(self, state_interest):
@@ -81,7 +78,6 @@ if __name__ == "__main__":
     subject.attach(observer_a)
     subject.attach(observer_filtered)
     subject.notify_state_change("specific_state")
-
 ```
 
 ## Testing 🧪

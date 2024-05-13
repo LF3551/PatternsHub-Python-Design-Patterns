@@ -46,7 +46,6 @@ context.do_something("Test data")
 ```
 
 ## Output 📊
-
 ```python
 Processing data with strategy A: Test data
 Processing data with strategy B: Test data
@@ -54,9 +53,7 @@ Processing data with strategy B: Test data
 This output illustrates how the context seamlessly transitions between different strategies.
 
 ## Business Logic Method 🧠
-
 The Strategy Pattern can also be used to handle complex decision-making processes where different strategies can be swapped depending on the situation at hand.
-
 ```python
 class AdvancedStrategy(IStrategy):
     def execute(self, data):
@@ -69,9 +66,7 @@ context.set_strategy(advanced_strategy)
 context.do_something("Complex data")
 ```
 ## Testing 🧪
-
 The test_strategy.py file should contain tests verifying:
-
 - Correct execution of each strategy.
 - Proper switching between strategies.
 - Isolation of strategy execution from the context.

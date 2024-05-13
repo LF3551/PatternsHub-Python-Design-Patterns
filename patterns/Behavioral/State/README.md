@@ -51,9 +51,7 @@ State B handling context.
 This output demonstrates how the context transitions between states and changes behavior accordingly.
 
 ## Business Logic Method 🧠
-
 The State Pattern can be adapted to complex scenarios, such as a multistage approval process where different actions are taken based on the stage:
-
 ```python
 class ApprovalState(State):
     def handle(self, context):
@@ -71,9 +69,7 @@ context.request()  # Outputs: In review state, moving to approval.
 context.request()  # Outputs: Handling approval in state: ApprovalState
 ```
 ## Testing 🧪
-
 The test_state.py file should contain tests to ensure:
-
-State transitions occur as expected.
-Each state correctly executes its defined behavior.
-The context interacts with state objects properly.
+- State transitions occur as expected.
+- Each state correctly executes its defined behavior.
+- The context interacts with state objects properly.
