@@ -63,7 +63,6 @@ remote.press_button()
 ```python
 The light is on
 ```
-
 This output demonstrates the remote control turning on the light via the Command Pattern.
 
 
@@ -92,9 +91,7 @@ class Receiver:
         print("Receiver is performing action.")
 ```
 ## Testing 🧪
-
 The test_command.py file should contain tests for:
-
 - Ensuring that the right commands trigger the correct actions.
 - Verifying that the undo functionality works as expected.
 - Checking the integrity and order of queued commands.

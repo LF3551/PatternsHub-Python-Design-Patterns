@@ -56,15 +56,10 @@ while iterator.has_next():
 5
 
 ```
-
 This output demonstrates the basic functionality of an iterator traversing through a collection of items.
-
-
-
 
 ## Business Logic Method 🧠
 The Iterator Pattern can also adapt to more complex business scenarios such as iterating over a filtered subset of elements based on certain conditions:
-
 ```python
 class FilterIterator(Iterator):
     def __init__(self, collection, filter_condition):

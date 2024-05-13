@@ -53,7 +53,6 @@ default_handler.handle(25)
 ```
 
 ## Output 📊
-
 ```python
 Handler1 handles request 5
 Handler2 handles request 15
@@ -62,7 +61,6 @@ DefaultHandler handles request 25
 This output demonstrates how each request is handled by different handlers depending on the request value.
 
 ## Business Logic Method 🧠
-
 The Chain of Responsibility can be tailored to complex decision-making processes where a request may need to pass through multiple checks or operations:
 
 ```python
@@ -80,9 +78,7 @@ security.handle({"secure": True, "data": "some sensitive data"})
 security.handle({"data": "some sensitive data"})
 ```
 ## Testing 🧪
-
 The test_chain_of_responsibility.py file should contain tests that:
-
-Ensure each handler processes appropriate requests as expected.
-Confirm requests fall through to the correct handler when one handler cannot deal with them.
-Verify the entire chain handles integration scenarios correctly.
+- Ensure each handler processes appropriate requests as expected.
+- Confirm requests fall through to the correct handler when one handler cannot deal with them.
+- Verify the entire chain handles integration scenarios correctly.

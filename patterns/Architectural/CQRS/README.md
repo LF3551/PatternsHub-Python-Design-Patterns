@@ -34,12 +34,10 @@ Item created: Item1
 Item updated: Item1
 Item1: Updated Description
 All items: ['Item1']
-
 ```
 This output demonstrates how the CQRS pattern separates the handling of creating and updating data (commands) from the retrieval of data (queries).
 
 ## Business Logic Method 🧠
-
 Here's how you might utilize CQRS in your business logic:
 ```python
 # Initialize services
@@ -54,11 +52,8 @@ query_service.get_item("Item2")  # Immediate consistency is not guaranteed
 import time
 time.sleep(1)  # Simulate delay for data synchronization
 print(query_service.get_item("Item2"))
-
-
 ```
 ## Testing 🧪
 The `test_cqrs.py` file includes tests to ensure that commands and queries are handled correctly within their respective models. It checks for:
-
 - Correct execution of write operations without impacting read models.
 - Accurate and efficient query operations that reflect the state changes made by commands, respecting eventual consistency.

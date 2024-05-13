@@ -72,9 +72,7 @@ Component 2 does C.
 Component 2 does D.
 Mediator reacts on D and triggers following operations:
 Component 1 does B.
-
 ```
-
 This output shows the mediator facilitating and handling interactions between two components, coordinating their actions based on the events that occur.
 
 
@@ -89,12 +87,9 @@ def notify(self, sender, event):
         # Complex logic before triggering component
         print("Preparing environment for Component 2 action C.")
         self.component2.do_c()
-
-
 ```
 
 ## Testing 🧪
 The test_mediator.py file should contain tests ensuring:
-
 - Correct propagation of actions among components via the mediator.
 - Proper handling and modification of component interactions without direct dependencies.
