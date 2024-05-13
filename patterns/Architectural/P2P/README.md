@@ -40,7 +40,6 @@ peer2.peers['001'] = peer1
 
 # Data exchange
 peer1.send_data('002', 'Hello, Peer 2!')
-
 ```
 
 ## Output 📊
@@ -52,7 +51,6 @@ Data received: Hello, Peer 2!
 This output shows a direct data exchange between two peers, demonstrating the basic functionality of a P2P network.
 
 ## Business Logic Method 🧠
-
 Here’s how complex interactions can be managed in a P2P network:
 ```python
 def broadcast_data(self, data):
@@ -61,7 +59,6 @@ def broadcast_data(self, data):
 ```
 ## Testing 🧪
 The `test_p2p.py` file includes tests to ensure that:
-
 - Peers can discover and interact with each other correctly.
 - Data is accurately transmitted and received without loss.
 - The network can expand and contract dynamically with peers joining and leaving.

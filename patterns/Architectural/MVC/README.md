@@ -54,7 +54,6 @@ Item: Apple
 This output demonstrates a simple interaction within the MVC architecture, highlighting how the user's input is processed and displayed.
 
 ## Business Logic Method 🧠
-
 Here's how business logic can be integrated into the controller to make decisions:
 ```python
 def update_item(self, item, new_value):

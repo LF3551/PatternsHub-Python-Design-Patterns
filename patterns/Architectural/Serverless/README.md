@@ -51,7 +51,6 @@ def process_order(event, context):
 ```
 ## Testing 🧪
 The `test_serverless.py` file includes tests to ensure that:
-
 - The serverless functions are triggered correctly by their designated events.
 - Business logic within functions executes correctly and returns the expected outputs.
 - The system gracefully handles errors and edge cases
