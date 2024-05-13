@@ -34,7 +34,6 @@ presentation.display_result(result)
 ## Output 📊
 ```python
 Data saved successfully: {processed_data}
-
 ```
 This output indicates how data moves through each layer, from input to processing and finally to storage, showcasing the decoupled nature of each component.
 
@@ -52,11 +51,9 @@ def apply_discount(order_details):
 order_data = {'quantity': 25, 'price': 100}
 discounted_price = apply_discount(order_data)
 print(f"Discounted Price: {discounted_price}")
-
 ```
 ## Testing 🧪
 The `test_layered_architecture.py` file includes tests to ensure that:
-
 - Each layer only interacts with its adjacent layers.
 - Business rules are correctly applied and isolated within the business layer.
 - Data integrity and transaction safety are maintained through all layers.

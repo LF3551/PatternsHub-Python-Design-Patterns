@@ -51,13 +51,10 @@ if __name__ == '__main__':
   "username": "johndoe",
   "email": "john@example.com"
 }
-
-
 ```
 These outputs show typical responses from a user management microservice, demonstrating independent service functionality.
 
 ## Business Logic Method 🧠
-
 Here's how business logic can be encapsulated within a microservice:
 ```python
 # Business logic to handle user promotion based on points
@@ -80,12 +77,9 @@ def promote_user_route(username):
         return jsonify(promoted_user), 200
     else:
         return "User not found", 404
-
 ```
 ## Testing 🧪
-
 The `test_microservices.py` file includes tests to ensure that:
-
 - Each microservice functions independently and correctly handles its designated tasks.
 - Services communicate effectively, maintaining data consistency and integrity.
 - Services can be independently deployed and scaled.

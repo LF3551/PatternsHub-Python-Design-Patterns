@@ -37,7 +37,6 @@ Processing order #123 for Coffee
 This output showcases how an event-driven system processes events, demonstrating the decoupling and dynamic handling of actions based on events.
 
 ## Business Logic Method 🧠
-
 Here's an example of how you might incorporate EDA into complex business logic:
 ```python
 # More complex event handling
@@ -52,7 +51,6 @@ event_manager.emit('order_shipped', {'order_id': 124})
 ```
 ## Testing 🧪
 The `test_event_driven.py` file includes tests to ensure that:
-
 - Events are properly emitted and handled.
 - Multiple listeners can react to the same event independently.
 - The system maintains robustness and responsiveness under high event loads.
