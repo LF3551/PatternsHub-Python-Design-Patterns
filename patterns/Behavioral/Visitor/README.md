@@ -70,11 +70,10 @@ class DataAnalysisVisitor(Visitor):
 analysis_visitor = DataAnalysisVisitor()
 for element in elements:
     element.accept(analysis_visitor)
-
 ```
 
 ## Testing 🧪
-The test_visitor.py file should contain tests to ensure:
+The `test_visitor.py` file should contain tests to ensure:
 - Each Visitor correctly interacts with different Element types.
 - New visitor operations can be added without modifying existing elements.
 - Correct data is processed during the visitations.
